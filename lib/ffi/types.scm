@@ -15,8 +15,11 @@
 (c-define-type GLclampx int)
 (c-define-type GLintptr int)
 (c-define-type GLsizeiptr int)
+(c-define-type GLchar char)
 
 (c-define-type GLfloat* (pointer GLfloat))
 (c-define-type GLuint* (pointer GLuint))
 (c-define-type GLushort* (pointer GLushort))
 (c-define-type GLubyte* (pointer GLubyte))
+(c-define-type GLvoid* (pointer GLvoid))
+(c-define-type GLchar* (pointer GLchar))
